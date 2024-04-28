@@ -1,7 +1,7 @@
 package handler
 
 import (
-	config "ifoodchallenge/config"
+	config "github.com/joaogabsoaresf/go-weather/config"
 )
 
 var (

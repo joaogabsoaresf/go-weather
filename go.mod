@@ -1,4 +1,4 @@
-module ifoodchallenge
+module github.com/joaogabsoaresf/go-weather
 
 go 1.22.2
 

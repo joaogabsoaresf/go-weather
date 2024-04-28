@@ -1,8 +1,8 @@
 package main
 
 import (
-	"ifoodchallenge/config"
-	"ifoodchallenge/router"
+	config "github.com/joaogabsoaresf/go-weather/config"
+	router "github.com/joaogabsoaresf/go-weather/router"
 )
 
 var (

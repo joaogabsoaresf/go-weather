@@ -1,7 +1,7 @@
 package router
 
 import (
-	"ifoodchallenge/handler"
+	handler "github.com/joaogabsoaresf/go-weather/handler"
 
 	"github.com/gin-gonic/gin"
 )

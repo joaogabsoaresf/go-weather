@@ -2,7 +2,8 @@ package handler
 
 import (
 	"fmt"
-	"ifoodchallenge/connectors"
+
+	connectors "github.com/joaogabsoaresf/go-weather/connectors"
 
 	"github.com/gin-gonic/gin"
 )

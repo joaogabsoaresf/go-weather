@@ -2,10 +2,11 @@ package connectors
 
 import (
 	"encoding/json"
-	config "ifoodchallenge/config"
 	"io"
 	"net/http"
 	"net/url"
+
+	config "github.com/joaogabsoaresf/go-weather/config"
 )
 
 type Weather struct {
