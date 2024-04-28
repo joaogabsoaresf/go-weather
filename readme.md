@@ -34,6 +34,6 @@ Isso iniciará o projeto e você verá os resultados no console.
 
 ## Endpoints
 O projeto no momento só possui um endpoint e ele estará disponivel em:
-http://localhost:8080/api/v1/weather/<city>
+http://localhost:8080/api/v1/weather/NOMEDACIDADE
 
 Basta alterar o nome da cidade e buscar, o valor será salvo no Redis para retornar mais rápido nas próximas consultas.
