@@ -14,7 +14,8 @@ var (
 
 func InitRedis() *redis.Client {
 	logger = GetLogger("redis")
-	opt, err := redis.ParseURL("rediss://red-conb7ba1hbls73fg19eg:TkClebGBYvffeMTnNMCQiqLQ4HLBlmor@oregon-redis.render.com:6379")
+	secrets := GetSecrets()
+	opt, err := redis.ParseURL(secrets.REDIS_URL)
 	if err != nil {
 		panic(err)
 	}
