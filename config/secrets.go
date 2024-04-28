@@ -15,6 +15,7 @@ const (
 type Secrets struct {
 	Env              string `env:"ENV"`
 	OPEN_WEATHER_API string `env:"OPEN_WEATHER_API"`
+	REDIS_URL        string `env:"REDIS_URL"`
 }
 
 func InitializeSecrets() *Secrets {

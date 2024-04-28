@@ -2,7 +2,7 @@ package main
 
 import (
 	config "github.com/joaogabsoaresf/go-weather/config"
-	router "github.com/joaogabsoaresf/go-weather/router"
+	"github.com/joaogabsoaresf/go-weather/router"
 )
 
 var (
