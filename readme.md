@@ -7,7 +7,7 @@ Este é um projeto em GO para consultar o clima de uma cidade por uma API simple
 Para clonar este projeto para o seu ambiente local, execute o seguinte comando:
 
 ```bash
-git clone <URL do Repositório>
+git clone https://github.com/joaogabsoaresf/go-weather
 ```
 Instalando Dependências
 Certifique-se de ter o Go instalado em sua máquina. Em seguida, você precisará instalar as dependências do projeto. Para isso, use o seguinte comando:
